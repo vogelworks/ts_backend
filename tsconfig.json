@@ -1,0 +1,15 @@
+{
+    "compilerOptions":{
+        "module": "commonjs",
+        "removeComments":true,
+        "esModuleInterop": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "strictNullChecks":true
+    },
+    "include":[
+        "./lib/",
+        "./gateway/src"
+    ],
+    "exclude":["node_modules"]
+}

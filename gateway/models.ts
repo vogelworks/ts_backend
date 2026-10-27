@@ -1,0 +1,22 @@
+export default {
+    user:{
+        db:'Systems',
+        collect:'User',
+        method:'QUERY'
+    },
+    usersettings:{
+        db:'Systems',
+        collect:'UserSetting',
+        method:'QUERY'
+    },
+    userprofiles:{
+        db:'Systems',
+        collect:'UserProfile',
+        method:'QUERY'
+    },
+    apps:{
+        db:'Systems',
+        collect:'App',
+        method:'QUERY'
+    }
+}
